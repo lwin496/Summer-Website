@@ -1,0 +1,218 @@
+@font-face {
+      font-family: normal;
+      src: url('/fonts/GeosansLight.ttf');
+}
+@font-face {
+      font-family: bold;
+      src: url('/fonts/moon_get-Heavy.ttf');
+}
+
+*{ 
+      margin: 0;
+      padding: 0;
+}
+body { 
+      overflow-x: hidden;
+}
+.myNav { 
+      position: fixed;
+      width: 7.5vw;
+      background-color: black;
+      height: 100vh;
+      display: flex;
+      
+      ul { 
+            width: 7.5vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            list-style-type: none;
+            margin: auto;
+            gap: 30vh;
+            
+
+      }
+      li {  
+            font-size: 2vw;
+            font-family: bold;
+            text-align: center;
+            
+            
+           
+            a{    
+                  
+                  display: block;
+                  color: whitesmoke;
+                  text-decoration: none;
+                  
+            }
+      }
+     
+}
+
+.sec1{ 
+      width: 92.5vw;
+      background-color: whitesmoke;
+      height: 100vh;
+      margin-left: 7.5vw;
+      h1{ 
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: bold;
+            font-size: 3rem;
+      }
+}
+
+.sec2{ 
+      margin-left: 7.5vw;
+      width: 92.5vw;
+      height: 100vh;
+      background-color: #0a4abf;
+      display: flex;
+      flex-direction: row;
+      .box{ 
+            background-color: #f6eb16;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{ 
+                  font-family: bold;
+                  padding-left: 3vw;
+                 
+            }
+          
+            
+            img { 
+                  width: 30vw;
+                  display: flex;
+                 
+            }
+            
+      }
+      .box1{ 
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{  
+                 
+                  width: 30vw;
+                  height: 30vh;
+            }
+      }
+}
+
+.sec3{ 
+      height: 100vh;
+      background-color: #dc98a4;
+      h1{ 
+            font-family: bold;
+      display: flex;
+      justify-content: center;
+      padding-top: 10vh;
+      }
+      img{ 
+            height: 80vh;
+            width: 50vw;
+            display: flex;
+            margin: auto;
+            padding-top: 2vh;
+      }
+
+}
+
+@media screen  and (max-width: 1136px){
+
+      .sec1{ 
+            width: 92.5vw;
+            background-color: whitesmoke;
+            height: 100vh;
+            margin-left: 7.5vw;
+            h1{ 
+                  height: 100vh;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-family: bold;
+                  font-size: 3rem;
+                  text-align: center;
+            }
+           
+      }
+      
+.sec2{ 
+      margin-left: 7.5vw;
+      width: 92.5vw;
+      height: 100vh;
+      background-color: #0a4abf;
+      display: flex;
+      flex-direction: row;
+      .box{ 
+            background-color: #f6eb16;
+            width: 50vw;
+            h1{ 
+                  font-family: bold;
+          
+            }
+            hr{ 
+                  width: 50vw;
+                 
+                  background-color: black;
+                  height: 0.4rem;
+                  border: none;
+            }
+            
+      }
+      .box1{ 
+            width: 50vw;
+      }
+}
+}
+
+@media screen and (max-width: 768px) {
+      .myNav { 
+            position: fixed;
+            width: 100vw;
+            background-color: black;
+            height: 7.5vh;
+            // display: flex;
+            margin: 0;
+       
+            ul { 
+                  // width:100vw;
+                  // display: flex;
+                 justify-content: space-around;
+                  flex-direction: row;
+                  list-style-type: none;
+                  margin: auto;
+                  // gap: 30vh;
+       
+      
+            }
+            li {  
+      
+                  // font-size: 2vw;
+                  font-family: bold;
+                  a{    
+                        
+                        display: block;
+                        color: whitesmoke;
+                        text-decoration: none;
+                        
+                  }
+            }
+           
+      }
+      .sec1{ 
+            width: 100vw;
+            margin: 0;
+      }
+      .sec2{ 
+            width: 100vw;
+            margin: 0;
+      }
+}
